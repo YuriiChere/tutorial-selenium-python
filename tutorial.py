@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 def set_up(eyes):
 
     # You can get your api key from the Applitools dashboard
-    eyes.configure.set_api_key("97ELuwdIiAilbeumIilysV8yY24tygCeRFFTYEBO7EfE110")
+    eyes.configure.set_api_key("APPLITOOLS_API_KEY")
 
     # set new batch
     eyes.configure.set_batch(BatchInfo("Demo batch"))
